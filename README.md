@@ -22,7 +22,7 @@ If you are busy, you can skip 'upgrade', but 'update' is necessary.
 ## 2. Download
 ### All (모든 버전 다운로드)
 ```bash
-~ $ git clone https://github.com/dltpdn/opencv-for-rpi.git
+~ $ git clone https://github.com/sjun1019/opencv-for-rpi.git
 ~ $ cd opencv-for-rpi
 ~/opencv-for-rpi $ cd <rasbian_version>/<opencv_version> #cd stretch/4.0.0
 ```
@@ -30,7 +30,7 @@ If you are busy, you can skip 'upgrade', but 'update' is necessary.
 Select the version you want from the release page and download it.
 
 릴리즈 페이지에서 원하는 버전을 선택해서 다운로드 받으세요.
-* https://github.com/dltpdn/opencv-for-rpi/releases
+* https://github.com/sjun1019/opencv-for-rpi/releases
 
 ## 3. Installation
 ```
