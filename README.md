@@ -24,7 +24,7 @@ If you are busy, you can skip 'upgrade', but 'update' is necessary.
 ```bash
 ~ $ git clone https://github.com/dltpdn/opencv-for-rpi.git
 ~ $ cd opencv-for-rpi
-~/opencv-for-rpi $ cd <rasbian_version>/<opencv_version> #cd stretch/3.4.0
+~/opencv-for-rpi $ cd <rasbian_version>/<opencv_version> #cd stretch/4.0.0
 ```
 ### Specific version only(원하는 버전만 다운로드)
 Select the version you want from the release page and download it.
@@ -34,17 +34,17 @@ Select the version you want from the release page and download it.
 
 ## 3. Installation
 ```
-~/opencv-for-rpi/stretch/3.4.0 $ sudo apt-get install -y ./OpenCV*.deb
+~/opencv-for-rpi/stretch/4.0.0 $ sudo apt-get install -y ./OpenCV*.deb
 ```
 or
 ```
-~/opencv-for-rpi/stretch/3.4.0 $ sudo dpkg -i ./OpenCV*.dev
-~/opencv-for-rpi/stretch/3.4.0 $ sudo apt install -f
+~/opencv-for-rpi/stretch/4.0.0 $ sudo dpkg -i ./OpenCV*.deb
+~/opencv-for-rpi/stretch/4.0.0 $ sudo apt install -f
 ```
 
 ## 3. Check the result(결과 확인)
 ```
-~ $ pkg-config —modversion opencv  #opencv 3.4.0
+~ $ pkg-config —modversion opencv  #opencv 4.0.0
 ```
 ```
 ~ $ dpkg -l |grep opencv
